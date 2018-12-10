@@ -1,0 +1,12 @@
+Player:
+Game:
+Sound:
+Graphics:
+	Mode: Windowed
+Server:
+	Map: 718e02620a7ad8cef1ea12f8885ab95edef76ac2
+Debug:
+	UUID: a7d99c4b-5d11-47a2-9976-917ac431e471
+	SendSystemInformation: False
+	SystemInformationVersionPrompt: 3
+Keys:

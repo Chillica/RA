@@ -1,0 +1,10 @@
+OpenRA engine version {DEV_VERSION}
+Date: 2018-12-03 20:43:59Z
+Operating System: Windows (Microsoft Windows NT 6.2.9200.0)
+Runtime Version: .NET CLR 4.0.30319.42000
+Exception of type `System.InvalidOperationException`: Game.Mod argument missing.
+   at OpenRA.Game.InitializeMod(String mod, Arguments args) in c:\Users\jacob.ashcraft\Documents\OpenRA\OpenRA.Game\Game.cs:line 403
+   at OpenRA.Game.Initialize(Arguments args) in c:\Users\jacob.ashcraft\Documents\OpenRA\OpenRA.Game\Game.cs:line 372
+   at OpenRA.Game.InitializeAndRun(String[] args) in c:\Users\jacob.ashcraft\Documents\OpenRA\OpenRA.Game\Game.cs:line 254
+   at OpenRA.Program.Main(String[] args) in c:\Users\jacob.ashcraft\Documents\OpenRA\OpenRA.Game\Support\Program.cs:line 37
+

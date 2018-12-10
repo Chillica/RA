@@ -96,6 +96,9 @@ namespace OpenRA.Mods.Common.Traits
 			// NOTE: The server hardcodes special-case logic for this option id
 			yield return new LobbyOption("gamespeed", GameSpeedDropdownLabel, GameSpeedDropdownDescription, GameSpeedDropdownVisible, GameSpeedDropdownDisplayOrder,
 				new ReadOnlyDictionary<string, string>(gameSpeeds), GameSpeed, GameSpeedDropdownLocked);
+
+			yield return new LobbyBooleanOption("buildanywhere", "Build Any Where", "Allows a Player to build a building anywhere.",
+				true, 11, true, false);
 		}
 
 		void IRulesetLoaded<ActorInfo>.RulesetLoaded(Ruleset rules, ActorInfo info)

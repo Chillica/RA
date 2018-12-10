@@ -1,0 +1,281 @@
+          LoadMaps
+    24 ms |   a-path-beyond.oramap
+     2 ms |   agenda.oramap
+     4 ms |   alaska-anarchy-redux.oramap
+     3 ms |   all-connected.oramap
+     7 ms |   ascent.oramap
+     4 ms |   asymmetric-battle.oramap
+     2 ms |   barracuda.oramap
+     1 ms |   behind-the-veil.oramap
+     2 ms |   bombardment-islands.oramap
+     3 ms |   caffeinated.oramap
+     3 ms |   chaos-canyon.oramap
+     4 ms |   coastal-influence.oramap
+     2 ms |   cold-front.oramap
+     4 ms |   countercross.oramap
+     3 ms |   crossfire.oramap
+     2 ms |   decrepit-isles.oramap
+     2 ms |   doubles.oramap
+     6 ms |   doublestep.oramap
+     3 ms |   doughnut.oramap
+     2 ms |   dual-cold-front.oramap
+     1 ms |   east-vs-west.oramap
+     2 ms |   encounter.oramap
+     3 ms |   engagement.oramap
+     2 ms |   ensio-kaivo.oramap
+     4 ms |   great-sahara-2.oramap
+     3 ms |   green-belt.oramap
+     3 ms |   haos-ridges.oramap
+     4 ms |   hypothermia.oramap
+     2 ms |   icy-ridge.oramap
+     4 ms |   imminent-destruction.oramap
+     8 ms |   jungle-law.oramap
+     1 ms |   keep-off-the-grass-2.oramap
+     2 ms |   mad-science.oramap
+     2 ms |   maelstrom.oramap
+     4 ms |   mass-confliction.oramap
+     2 ms |   minor-pressure.oramap
+     6 ms |   nine-lives.oramap
+     3 ms |   north-by-northwest.oramap
+     1 ms |   northwestpassage.oramap
+     3 ms |   operation-goldmine.oramap
+     3 ms |   opposite-force.oramap
+     6 ms |   ore-gardens.oramap
+     1 ms |   ore-lord.oramap
+     4 ms |   outdoor-trails.oramap
+     3 ms |   pie-of-animosity.oramap
+     2 ms |   pitfight.oramap
+     2 ms |   polar-disorder.oramap
+     6 ms |   pool-party.oramap
+     3 ms |   pressure.oramap
+     3 ms |   puddles-redux.oramap
+     6 ms |   regeneration-basin.oramap
+     2 ms |   Siberian-Pass.oramap
+     2 ms |   sidestep.oramap
+     6 ms |   singles.oramap
+     2 ms |   sudden-death.oramap
+     2 ms |   sunstroke.oramap
+     3 ms |   synergy.oramap
+     2 ms |   tabula-rasa.oramap
+     4 ms |   tainted-peak.oramap
+     3 ms |   tandem.oramap
+     5 ms |   temperal.oramap
+     2 ms |   tournament-island.oramap
+     4 ms |   unconventional-warfare.oramap
+     4 ms |   union-sacree.oramap
+     2 ms |   vegetation.oramap
+     2 ms |   vihaan-lunta.oramap
+     3 ms |   warwind.oramap
+     1 ms |   winter-storm.oramap
+     3 ms |   x-lake.oramap
+     1 ms |   ysmir.oramap
+     4 ms |   a-nuclear-winter
+     2 ms |   allies-01
+     2 ms |   allies-02
+     2 ms |   allies-03a
+     3 ms |   allies-03b
+     2 ms |   allies-04
+    10 ms |   allies-05a
+     2 ms |   allies-06a
+     2 ms |   allies-06b
+     2 ms |   allies-07
+     2 ms |   allies-08a
+     3 ms |   bomber-john
+     3 ms |   center-of-attention-redux-2
+     1 ms |   desert-rats
+     2 ms |   desert-shellmap
+     2 ms |   drop-zone
+     2 ms |   drop-zone-battle-of-tikiaki
+     2 ms |   drop-zone-w
+     2 ms |   evacuation
+     2 ms |   exodus
+     2 ms |   fort-lonestar
+     2 ms |   infiltration
+     8 ms |   intervention
+     3 ms |   monster-tank-madness
+     2 ms |   poland-raid
+     4 ms |   rapa-nui
+     3 ms |   shattered-mountain
+     4 ms |   six-below-zero
+     2 ms |   snow town
+     1 ms |   snow-off
+     2 ms |   soviet-01
+     2 ms |   soviet-02a
+     2 ms |   soviet-02b
+     2 ms |   soviet-03
+     2 ms |   soviet-04a
+     2 ms |   soviet-04b
+     2 ms |   soviet-05
+    16 ms |   soviet-06a
+     2 ms |   soviet-06b
+     2 ms |   soviet-07
+     2 ms |   soviet-08a
+     3 ms |   soviet-soldier-volkov-n-chitzkoi
+     2 ms |   survival01
+     2 ms |   survival02
+   364 ms --------------------------------------------------
+          SpriteFonts
+     6 ms |   PrecacheColor common|FreeSans.ttf 10px White
+     1 ms |   PrecacheColor common|FreeSansBold.ttf 10px White
+     3 ms |   PrecacheColor common|FreeSans.ttf 12px White
+     1 ms |   PrecacheColor common|FreeSans.ttf 14px White
+     1 ms |   PrecacheColor common|FreeSansBold.ttf 14px White
+     2 ms |   PrecacheColor common|FreeSansBold.ttf 18px White
+     5 ms |   PrecacheColor common|FreeSansBold.ttf 24px White
+    35 ms --------------------------------------------------
+          StartGame
+          |   PrepareMap
+          |   |   Map
+     7 ms |   |   |   LoadSequences
+   674 ms |   |   ------------------------------------------
+   252 ms |   |   Map.Music
+   959 ms |   ----------------------------------------------
+   139 ms |   NewWorld
+          |   LoadComplete
+     0 ms |   |   ScreenMap.WorldLoaded
+     0 ms |   |   MenuPaletteEffect.WorldLoaded
+     0 ms |   |   TerrainGeometryOverlay.WorldLoaded
+    24 ms |   |   TerrainRenderer.WorldLoaded
+    49 ms |   |   ShroudRenderer.WorldLoaded
+     0 ms |   |   ResourceType.WorldLoaded
+     0 ms |   |   ResourceType.WorldLoaded
+     0 ms |   |   DevCommands.WorldLoaded
+     0 ms |   |   DebugVisualizationCommands.WorldLoaded
+     0 ms |   |   PlayerCommands.WorldLoaded
+     0 ms |   |   HelpCommand.WorldLoaded
+     0 ms |   |   ScreenShaker.WorldLoaded
+    35 ms |   |   LegacyBridgeLayer.WorldLoaded
+     0 ms |   |   CustomTerrainDebugOverlay.WorldLoaded
+          |   |   DomainIndex.WorldLoaded
+    51 ms |   |   |   BuildDomains: Desert Shellmap for movement class 699
+    47 ms |   |   |   BuildDomains: Desert Shellmap for movement class 4096
+    43 ms |   |   |   BuildDomains: Desert Shellmap for movement class 4097
+    43 ms |   |   |   BuildDomains: Desert Shellmap for movement class 0
+   193 ms |   |   ------------------------------------------
+     5 ms |   |   SmudgeLayer.WorldLoaded
+     3 ms |   |   SmudgeLayer.WorldLoaded
+   508 ms |   |   SpawnMapActors.WorldLoaded
+    69 ms |   |   LoadWidgetAtGameStart.WorldLoaded
+    12 ms |   |   ResourceLayer.WorldLoaded
+   296 ms |   |   LuaScript.WorldLoaded
+  1197 ms |   ----------------------------------------------
+  2478 ms --------------------------------------------------
+    23 ms [1] Activity: Move
+     1 ms [1] Activity: HeliFly
+     1 ms [1] Trait: world->ActorMap
+     1 ms [1] Trait: world->LuaScript
+     3 ms [1] Trait: player->FrozenActorLayer
+     1 ms [1] Trait: player->ClassicProductionQueue
+     3 ms [1] Trait: player->SupportPowerManager
+     1 ms [1] Trait: brik->FrozenUnderFog
+     2 ms [1] Trait: 2tnk->RenderSprites
+     3 ms [1] Trait: tran.husk2->Burns
+     5 ms [1] Trait: mine->SeedsResource
+     1 ms [1] Trait: pbox->Cargo
+     1 ms [1] Trait: pbox->AttackGarrisoned
+     5 ms [1] Trait: lst->WithLandingCraftAnimation
+     2 ms [1] Trait: atek->GpsPower
+     1 ms [1] Trait: miss->RevealsShroud
+     2 ms [1] Render: world->SmudgeLayer
+     1 ms [1] Render: world->ResourceLayer
+     2 ms [2] Activity: MoveFirstHalf
+     4 ms [2] Activity: Move
+    12 ms [2] Activity: CallFunc
+     7 ms [2] Activity: FindResources
+     1 ms [2] Trait: tran->Aircraft
+     1 ms [2] Trait: badr->ParaDrop
+     1 ms [4] Activity: Move
+     1 ms [4] Activity: AttackMoveActivity
+     2 ms [4] Activity: Move
+     2 ms [4] Activity: AttackMoveActivity
+     1 ms [4] Activity: Move
+     1 ms [4] Activity: AttackMoveActivity
+     3 ms [4] Activity: Move
+     3 ms [4] Activity: AttackMoveActivity
+     5 ms [4] Activity: Move
+     5 ms [4] Activity: AttackMoveActivity
+     1 ms [4] Activity: Move
+     1 ms [4] Activity: AttackMoveActivity
+     4 ms [8] Activity: MoveFirstHalf
+     4 ms [8] Activity: Move
+     2 ms [13] Activity: MoveSecondHalf
+     2 ms [13] Activity: Move
+     2 ms [18] Activity: Move
+     2 ms [18] Activity: AttackMoveActivity
+     5 ms [22] Activity: MoveSecondHalf
+     6 ms [22] Activity: Move
+     6 ms [22] Activity: AttackMoveActivity
+     1 ms [33] Activity: Move
+     1 ms [33] Activity: AttackMoveActivity
+     1 ms [48] Activity: Move
+     1 ms [48] Activity: AttackMoveActivity
+     1 ms [53] Activity: Move
+     1 ms [53] Activity: AttackMoveActivity
+     2 ms [53] Activity: Move
+     2 ms [53] Activity: AttackMoveActivity
+     1 ms [53] Activity: Move
+     1 ms [53] Activity: AttackMoveActivity
+     4 ms [53] Activity: Move
+     4 ms [53] Activity: AttackMoveActivity
+     7 ms [53] Activity: Move
+     7 ms [53] Activity: AttackMoveActivity
+     2 ms [61] Activity: WaitFor
+     1 ms [0] Trait: brik->WithWallSpriteBody
+     1 ms [0] Activity: Move
+     1 ms [0] Activity: AttackMoveActivity
+     2 ms [0] Activity: Move
+     2 ms [0] Activity: AttackMoveActivity
+     4 ms [0] Activity: Move
+     4 ms [0] Activity: AttackMoveActivity
+     6 ms [0] Activity: Move
+     6 ms [0] Activity: AttackMoveActivity
+     2 ms [0] Activity: Move
+     2 ms [0] Activity: AttackMoveActivity
+     2 ms [0] Activity: Move
+     2 ms [0] Activity: AttackMoveActivity
+     2 ms [0] Activity: Teleport
+     3 ms [0] Activity: Hunt
+     9 ms [0] Activity: MoveSecondHalf
+     9 ms [0] Activity: Move
+     9 ms [0] Activity: AttackMoveActivity
+     1 ms [0] Activity: HarvestResource
+     1 ms [0] Activity: Move
+     1 ms [0] Activity: AttackMoveActivity
+     2 ms [0] Activity: Move
+     2 ms [0] Activity: AttackMoveActivity
+     2 ms [0] Activity: Move
+     2 ms [0] Activity: AttackMoveActivity
+     1 ms [0] Activity: Move
+     1 ms [0] Activity: AttackMoveActivity
+     6 ms [0] Activity: Move
+     6 ms [0] Activity: AttackMoveActivity
+     6 ms [0] Activity: Move
+     6 ms [0] Activity: AttackMoveActivity
+     2 ms [0] Activity: Move
+     2 ms [0] Activity: AttackMoveActivity
+     3 ms [0] Activity: MoveFirstHalf
+     3 ms [0] Activity: Move
+     3 ms [0] Activity: AttackMoveActivity
+     1 ms [0] Trait: apwr->RevealsShroud
+     8 ms [0] Activity: MoveSecondHalf
+     8 ms [0] Activity: Move
+     8 ms [0] Activity: AttackMoveActivity
+     5 ms [0] Trait: ca->AttackTurreted
+     1 ms [0] Effect: Bullet
+     1 ms [0] Activity: MoveSecondHalf
+     1 ms [0] Activity: Move
+     1 ms [0] Activity: AttackMoveActivity
+     1 ms [0] Trait: player->FrozenActorLayer
+    10 ms [0] Effect: Bullet
+     8 ms [0] Activity: UnloadCargo
+     4 ms [0] Activity: UnloadCargo
+     3 ms [0] Activity: Attack
+     2 ms [0] Effect: Bullet
+     3 ms [0] Activity: Move
+     4 ms [0] Activity: MoveWithinRange
+     2 ms [0] Activity: Move
+     2 ms [0] Activity: AttackMoveActivity
+     2 ms [0] Effect: GpsDotEffect
+     2 ms [0] Activity: Move
+     2 ms [0] Activity: AttackMoveActivity
+     1 ms [0] Effect: Bullet

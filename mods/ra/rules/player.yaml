@@ -98,6 +98,13 @@ Player:
 		Enabled: False
 		DisplayOrder: 8
 		Prerequisites: global-bounty
+	# LobbyPrerequisiteCheckbox@BUILDANYWHERE:
+	# 	ID: buildanywhere
+	# 	Label: Build Anywhere
+	# 	Description: You may build a building anywhere.
+	# 	Enabled: True
+	# 	DisplayOrder: 11
+	# 	Prerequisites:
 	LobbyPrerequisiteCheckbox@GLOBALFACTUNDEPLOY:
 		ID: factundeploy
 		Label: Redeployable MCVs

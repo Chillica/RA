@@ -1,0 +1,36 @@
+OpenRA engine version {DEV_VERSION}
+Red Alert mod version {DEV_VERSION}
+Date: 2018-12-05 20:50:45Z
+Operating System: Windows (Microsoft Windows NT 6.2.9200.0)
+Runtime Version: .NET CLR 4.0.30319.42000
+Exception of type `System.AggregateException`: One or more errors occurred.
+Inner
+  Exception of type `System.ArgumentException`: MiniYaml.Merge, duplicate values found for the following keys: LobbyPrerequisiteCheckbox@GLOBALBOUNTY: [LobbyPrerequisiteCheckbox@GLOBALBOUNTY (at ra|rules/player.yaml:94),LobbyPrerequisiteCheckbox@GLOBALBOUNTY (at ra|rules/player.yaml:101)]
+     at OpenRA.Exts.ToDictionaryWithConflictLog[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, String debugName, Func`2 logKey, Func`2 logValue) in c:\Users\jacob.ashcraft\Documents\OpenRA\OpenRA.Game\Exts.cs:line 407
+   at OpenRA.Exts.ToDictionaryWithConflictLog[TSource,TKey](IEnumerable`1 source, Func`2 keySelector, String debugName, Func`2 logKey, Func`2 logValue) in c:\Users\jacob.ashcraft\Documents\OpenRA\OpenRA.Game\Exts.cs:line 359
+   at OpenRA.MiniYaml.MergePartial(List`1 existingNodes, List`1 overrideNodes) in c:\Users\jacob.ashcraft\Documents\OpenRA\OpenRA.Game\MiniYaml.cs:line 424
+   at OpenRA.MiniYaml.MergePartial(MiniYaml existingNodes, MiniYaml overrideNodes) in c:\Users\jacob.ashcraft\Documents\OpenRA\OpenRA.Game\MiniYaml.cs:line 410
+   at OpenRA.MiniYaml.MergePartial(List`1 existingNodes, List`1 overrideNodes) in c:\Users\jacob.ashcraft\Documents\OpenRA\OpenRA.Game\MiniYaml.cs:line 435
+   at System.Linq.Enumerable.Aggregate[TSource](IEnumerable`1 source, Func`3 func)
+   at OpenRA.MiniYaml.Merge(IEnumerable`1 sources) in c:\Users\jacob.ashcraft\Documents\OpenRA\OpenRA.Game\MiniYaml.cs:line 295
+   at OpenRA.MiniYaml.Load(IReadOnlyFileSystem fileSystem, IEnumerable`1 files, MiniYaml mapRules) in c:\Users\jacob.ashcraft\Documents\OpenRA\OpenRA.Game\MiniYaml.cs:line 469
+   at OpenRA.Ruleset.MergeOrDefault[T](String name, IReadOnlyFileSystem fileSystem, IEnumerable`1 files, MiniYaml additional, IReadOnlyDictionary`2 defaults, Func`2 makeObject, Func`2 filterNode) in c:\Users\jacob.ashcraft\Documents\OpenRA\OpenRA.Game\GameRules\Ruleset.cs:line 114
+   at OpenRA.Ruleset.<>c__DisplayClasse.<LoadDefaults>b__6() in c:\Users\jacob.ashcraft\Documents\OpenRA\OpenRA.Game\GameRules\Ruleset.cs:line 131
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout)
+   at OpenRA.Ruleset.LoadDefaults(ModData modData) in c:\Users\jacob.ashcraft\Documents\OpenRA\OpenRA.Game\GameRules\Ruleset.cs:line 162
+   at OpenRA.ModData.<.ctor>b__3() in c:\Users\jacob.ashcraft\Documents\OpenRA\OpenRA.Game\ModData.cs:line 95
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at System.Lazy`1.get_Value()
+   at OpenRA.ModData.get_DefaultRules() in c:\Users\jacob.ashcraft\Documents\OpenRA\OpenRA.Game\ModData.cs:line 41
+   at OpenRA.Graphics.CursorProvider..ctor(ModData modData) in c:\Users\jacob.ashcraft\Documents\OpenRA\OpenRA.Game\Graphics\CursorProvider.cs:line 34
+   at OpenRA.ModData.InitializeLoaders(IReadOnlyFileSystem fileSystem) in c:\Users\jacob.ashcraft\Documents\OpenRA\OpenRA.Game\ModData.cs:line 137
+   at OpenRA.Game.InitializeMod(String mod, Arguments args) in c:\Users\jacob.ashcraft\Documents\OpenRA\OpenRA.Game\Game.cs:line 422
+   at OpenRA.Game.Initialize(Arguments args) in c:\Users\jacob.ashcraft\Documents\OpenRA\OpenRA.Game\Game.cs:line 372
+   at OpenRA.Game.InitializeAndRun(String[] args) in c:\Users\jacob.ashcraft\Documents\OpenRA\OpenRA.Game\Game.cs:line 254
+   at OpenRA.Program.Main(String[] args) in c:\Users\jacob.ashcraft\Documents\OpenRA\OpenRA.Game\Support\Program.cs:line 37
+

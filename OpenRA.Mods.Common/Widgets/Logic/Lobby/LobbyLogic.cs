@@ -349,6 +349,7 @@ namespace OpenRA.Mods.Common.Widgets.Logic
 				};
 			}
 
+			//var buildanywhere = lobby.GetOrNull<CheckboxWidget>("BUILDANYWHERE");
 			// Force start panel
 			Action startGame = () =>
 			{
@@ -368,7 +369,7 @@ namespace OpenRA.Mods.Common.Widgets.Logic
 					// Bots and admins don't count
 					if (orderManager.LobbyInfo.Clients.Any(c => c.Slot != null && !c.IsAdmin && c.Bot == null && !c.IsReady))
 						panel = PanelType.ForceStart;
-					else
+					else;
 						startGame();
 				};
 			}
@@ -732,7 +733,7 @@ namespace OpenRA.Mods.Common.Widgets.Logic
 			Ui.CloseWindow();
 			onStart();
 		}
-	}
+    }
 
 	public class LobbyFaction
 	{
